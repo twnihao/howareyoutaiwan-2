@@ -1,0 +1,97 @@
+/* CSS for website */
+
+.book.font-family-1 {
+      font-family: "微軟正黑體","Microsoft JhengHei","Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.book .book-body .page-wrapper .page-inner section.normal li,.book .book-body .page-wrapper .page-inner section.normal p {
+    line-height: 2;
+}
+
+.book[data-level="4"] .body-inner {
+    background-image: url(http://i.imgur.com/b5S4xPA.jpg);
+}
+.book[data-level="5"] .body-inner {
+    background-image: url(http://i.imgur.com/TyBfLTz.jpg);
+}
+.book[data-level="6"] .body-inner {
+    background-image: url(http://i.imgur.com/lcYSx4r.jpg);
+}
+.book[data-level="7"] .body-inner {
+    background-image: url(http://i.imgur.com/6zySfOk.jpg);
+}
+.book[data-level="8"] .body-inner {
+    background-image: url(http://i.imgur.com/TyBfLTz.jpg);
+}
+.book[data-level="9"] .body-inner {
+    background-image: url(http://i.imgur.com/v7uhMOR.jpg);
+}
+.book[data-level="11"] .body-inner {
+    background-image: url(http://i.imgur.com/HZGFDNX.jpg);
+}
+.book[data-level="12"] .body-inner {
+    background-image: url(http://i.imgur.com/OXr0N71.jpg);
+}
+.book[data-level="3"] .book-body .page-wrapper .page-inner section.normal li {
+    
+}
+.book[data-level="5"] .book-body .page-wrapper .page-inner section.normal h1,
+.book[data-level="6"] .book-body .page-wrapper .page-inner section.normal h1,
+.book[data-level="7"] .book-body .page-wrapper .page-inner section.normal h1, 
+.book[data-level="8"] .book-body .page-wrapper .page-inner section.normal h1, 
+.book[data-level="9"] .book-body .page-wrapper .page-inner section.normal h1, 
+.book[data-level="11"] .book-body .page-wrapper .page-inner section.normal h1, 
+.book[data-level="12"] .book-body .page-wrapper .page-inner section.normal h1{
+    color: white;
+}
+
+/*.book[data-level="0"] .body-inner {
+    background-image: url(../images/ComingSoon_slideOne-gitbook.jpg);
+}*/
+
+.book .body-inner {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center 50px;
+}
+.book .book-body .page-wrapper .page-inner section {
+    background: transparent;
+    padding: 0;
+}
+.book .book-body .page-wrapper .page-inner section.normal h1,.book .book-body .page-wrapper .page-inner section.normal h2,.book .book-body .page-wrapper .page-inner section.normal h3, .book .book-body .page-wrapper .page-inner section.normal h4 {
+    color: rgba(0,0,0,1);
+    font-weight: bold;
+    padding: 0.4em;
+}
+.book .book-body .page-wrapper .page-inner section.normal p {
+    background: transparent;
+    color: rgba(0,0,0,0.8);
+}
+@media (min-width: 768px)  {
+    .book[data-level="4"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="4.2"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="5"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="6"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="7"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="8"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="9"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="11"] .book-body .page-wrapper .page-inner section.normal h1, 
+    .book[data-level="12"] .book-body .page-wrapper .page-inner section.normal h1 {
+        font-size: 4em;
+        border-bottom: none;
+    }
+}
+
+/* Nap*/
+
+.book[data-level="0"] h2 strong{
+    font-size:100px;
+    font-weight:bold;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h1, .book .book-body .page-wrapper .page-inner section.normal h2, .book .book-body .page-wrapper .page-inner section.normal h3, .book .book-body .page-wrapper .page-inner section.normal h4{
+    padding:0.4em 0.4em 0.4em 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal img{
+    max-width:100%;
+}
